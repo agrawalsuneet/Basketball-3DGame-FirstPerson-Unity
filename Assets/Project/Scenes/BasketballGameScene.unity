@@ -706,8 +706,9 @@ GameObject:
   - component: {fileID: 1466378756}
   - component: {fileID: 1466378755}
   - component: {fileID: 1466378754}
+  - component: {fileID: 1466378760}
   m_Layer: 0
-  m_Name: FPSController
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,6 +946,20 @@ Transform:
   m_Father: {fileID: 643340255}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466378760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1466378753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b0f6977a1a8442e9175d6f9b16483b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1906712949}
+  playerCamera: {fileID: 2026025706}
+  ballDistance: 2.25
 --- !u!1 &1620494088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,7 +1172,7 @@ GameObject:
   - component: {fileID: 1906712952}
   - component: {fileID: 1906712951}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
