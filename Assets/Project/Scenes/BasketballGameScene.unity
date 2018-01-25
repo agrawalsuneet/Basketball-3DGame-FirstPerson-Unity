@@ -960,6 +960,8 @@ MonoBehaviour:
   ball: {fileID: 1906712949}
   playerCamera: {fileID: 2026025706}
   ballDistance: 2.25
+  ballThrowingForce: 550
+  holdingBall: 1
 --- !u!1 &1620494088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,7 +1248,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1906712949}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c52a7d25b040a456ca08cbac783349ad, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
