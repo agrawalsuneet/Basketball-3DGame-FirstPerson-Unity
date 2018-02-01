@@ -22,12 +22,12 @@ public class PlayerScript : MonoBehaviour {
 		if (holdingBall) {
 		ball.transform.position = playerCamera.transform.position + (playerCamera.transform.forward * ballDistance);
 
-			if (Input.GetMouseButtonDown (0)) {
-				holdingBall = false;
-				ball.SetTrailActive (true);
-				ball.GetComponent<Rigidbody> ().useGravity = true;
-				ball.GetComponent<Rigidbody> ().AddForce (playerCamera.transform.forward * ballThrowingForce);
-			}
+//			if (Input.GetMouseButtonDown (0)) {
+//				holdingBall = false;
+//				ball.SetTrailActive (true);
+//				ball.GetComponent<Rigidbody> ().useGravity = true;
+//				ball.GetComponent<Rigidbody> ().AddForce (playerCamera.transform.forward * ballThrowingForce);
+//			}
 			
 		}
 	}
